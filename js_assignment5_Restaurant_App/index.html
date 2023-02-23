@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Restaurant App</title>
+</head>
+<body>
+    <div class="head">
+     
+        <h1>Restaurant App</h1>
+    </div>
+    <div class="container">
+        <div class="table">
+            <h3 class="header">Table</h3>
+            <input type="text" name="table-search" class="table-search"  placeholder="Search">
+    <main class="main-table" id="table-root">
+        
+        <!-- <button class="table-btn">
+           
+            <div class="table-content">
+                <h3>Table-4</h3>
+                <label for="total">total:</label>
+                <span class="amount">0</span>
+                <label for="items">items:</label>
+                <span class="items">0</span>
+            </div>
+        </button> -->
+
+
+    </main>
+        </div>
+        <div class="menu">
+    <h3 class="header">Menu</h3>
+    <input type="text"  class="item-search"  placeholder="Search">
+    <div class="item-container">
+        <main id="menu-root">
+            <!-- <div class="menu-item" >
+                <div class="item-name">Ice Cream</div>
+                <div class="courseType">Desserts</div>
+                <span>60</span>
+            </div> -->
+        </main>
+    </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+
+        
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="m-title"></h3>
+          
+        <div id="modal-table">
+            
+        </div>
+        </div>
+
+    
+   
+</body>
+
+    <script src="./js/search.js"></script>
+    <script src="./js/iter-items.js"></script>
+    <script src="./js/drag-drop.js"></script>
+    <script src="./js/model.js"></script>
+</html>

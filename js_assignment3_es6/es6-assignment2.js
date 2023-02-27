@@ -3,5 +3,7 @@
 //                      return “Hi “ + name + “, please pay: “ + bill;
 //            }
 
+window.addEventListener("load",()=>{
 const printBill = (name, bill) => `Hi  ${name}, please pay: ${bill}`;
-console.log(printBill('Jogi',1000));                     
+console.log(printBill('Jogi',1000));  
+}
